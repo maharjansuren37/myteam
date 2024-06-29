@@ -1,0 +1,10 @@
+.link-anchor {
+    color: var(--clr-neutral-100);
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.link-anchor:hover, 
+.link-anchor:active {
+    color: var(--clr-light-coral);
+}

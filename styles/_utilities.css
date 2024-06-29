@@ -1,0 +1,28 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: [full-start] 1fr [center-start] 1110px [center-end] 1fr [full-end];
+}
+
+@media screen and (max-width: 69.375em) {
+    .grid {
+        grid-template-columns: [full-start] 54px [center-start] 1fr [center-end] 54px [full-end];
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .grid {
+        grid-template-columns: [full-start] 39px [center-start] 1fr [center-end] 39px [full-end];
+    }
+}
+
+@media screen and (max-width: 37.5em) {
+    .grid {
+        grid-template-columns: [full-start] 24px [center-start] 1fr [center-end] 24px [full-end];
+    }
+} */
+
+.container {
+    max-width: 1100px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}

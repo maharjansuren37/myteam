@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | myteam</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="top-header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home">
+                    <img src="/static/images/logo.svg" class="header__logo" alt="myteam-logo">
+                </a>
+    
+                <button class="toggle-menu" 
+                    title="Toggle Menu" 
+                    aria-controls="top-navigation"   
+                    aria-expanded="false">
+                    <img class="icon-hamburger" src="static/images/icon-hamburger.svg" alt="" aria-hidden="true">
+                    <img class="icon-close" src="static/images/icon-close.svg" alt="">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+    
+                <nav class="top-navigation" id="top-navigation">
+                    <ul role="list" class="nav__list">
+                        <li><a href="#" class="link-anchor nav__link">home</a></li>
+                        <li><a href="#" class="link-anchor nav__link">about</a></li>
+                    </ul>
+                </nav>
+    
+                <button>contact us</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
